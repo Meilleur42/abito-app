@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  cursor: pointer;
+  
+}
+
+.btn {
+  font-size: 14px;
+  line-height: 16px;
+  font-family: "Roboto", sans-serif;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-outlined {
+  background: transparent;
+}
+
+.btn-primary {
+  background: rgb(37, 110, 235);
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+}
+
+.content__container {
+  padding: 54px 148px 68px;
+}
+
+.content__group {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.content__main {
+  flex-grow: 1;
+}
+
+.content__main-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.content__main-list {
+  display: flex;  
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.content__product {
+  display: flex;
+  flex-grow: 1;
+  gap: 30px;
+}
+
+.content__product-left,
+.content__product-right {
+  flex-basis: 50%;
+}
+
+.content__product-title,
+.content__product-price {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.content__product-image {
+  width: 100%;
+}
+
+.content__product-text {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.btn-large {
+  padding: 19px 72px;
+}
+
+@media (max-width: 1200px) {
+    
+  .content__container {
+    padding: 54px 100px 68px;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .content__group {
+    flex-direction: column;
+  }
+
+  .content__main   {
+    width: 100%;
+    min-width: none;
+  } 
+
+  
+  .content__sidebar {
+    width: 100%;
+    min-width: none;
+  }
+
+  .content__product {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .content__product-left,
+  .content__product-right {
+    flex-basis: 100%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 786px) {
+  
+  .content__container {
+    padding: 54px 50px 68px;
+  }
+}
+@media (max-width: 320px) {
+    
+  .content__container {
+    padding: 54px 25px 68px;
+  }
+}
+
+
+
+

@@ -1,0 +1,11 @@
+.sidebar__card--title {
+    margin: 7px 0 5px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+  }
+  
+  .sidebar__card--text {
+    font-size: 14px;
+    line-height: 16px;
+  }

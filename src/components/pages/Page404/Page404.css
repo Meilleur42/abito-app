@@ -1,0 +1,14 @@
+:host {
+ max-width: 1440px;
+ margin: 0 auto;
+ 
+}
+
+.not-found {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
